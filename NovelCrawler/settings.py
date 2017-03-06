@@ -69,6 +69,7 @@ DEFAULT_REQUEST_HEADERS = {'Host': 'www.jjwxc.net',
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
+# 注册Pipeline，数字为优先级1~100，越小越优先
 ITEM_PIPELINES = {
    'NovelCrawler.NovelPipelines.NovelPipelines': 1,
 }

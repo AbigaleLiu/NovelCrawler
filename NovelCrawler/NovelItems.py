@@ -2,4 +2,4 @@
 from scrapy import *
 class NovelItems(Item):
     title = Field()  # 保存小说名称
-    text = Field()
+    text = Field()  # 小说内容
