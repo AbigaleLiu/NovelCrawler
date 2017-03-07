@@ -1,7 +1,7 @@
 # _*_ coding:utf-8 _*_
 class NovelPipelines(object):
     def __init__(self):
-        self.file = open(r"F:\NovelCrawler\SCI谜案集.txt", "w", encoding="utf-8")
+        self.file = open(r"F:\NovelCrawler\SCI谜案集.txt", "a", encoding="utf-8")
 
     def process_item(self, item, spider):
         title = item["title"]
